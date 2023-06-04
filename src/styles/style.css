@@ -24,6 +24,10 @@ body {
   color: var(--main-dark);
 }
 
+p {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -69,6 +73,10 @@ h6 {
 
 .accent-text {
   color: var(--main);
+}
+
+.link {
+  color: var(--blue);
 }
 
 .hero {
@@ -144,4 +152,91 @@ h6 {
 
 .hero-btn:hover {
   background-color: #EA7600;
+}
+
+
+.mailing {
+  background-color: var(--main-dark);
+  color: var(--white);
+  padding: 40px 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 76px;
+}
+.mailing-title {
+  max-width: 393px;
+}
+
+.mailing-title,
+.mailing-form {
+  flex: 0 0 50%;
+}
+
+.mailing-form {
+  max-width: 484px;
+}
+
+.form-label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+.form-field {
+  display: flex;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: 50px;
+  padding: 17px 15px;
+  background-color: var(--white);
+  border: 1px solid #E3E3E3;
+}
+
+.form-input::placeholder {
+  font-size: 13px;
+  color: #757575;
+  opacity: 0.2;
+}
+
+.form-btn {
+  display: block;
+  width: 70px;
+  height: 50px;
+  background-color: var(--main);
+  border: 1px solid var(--main);
+  position: relative;
+}
+
+.form-btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/send.svg');
+}
+
+.form-agreement {
+  font-size: 12px;
+}
+
+.form-link {
+  color: var(--white);
+}
+
+.copy {
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+}
+
+.copy-text {
+  margin-bottom: 16px;
 }
