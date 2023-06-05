@@ -263,3 +263,40 @@ h6 {
 .types .container {
   padding-top: 200px;
 }
+
+.types-title {
+  font-size: 52px;
+  color: var(--white);
+}
+
+.types-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -30px -15px 0;
+}
+
+.types-col {
+  flex: 0 0 auto;
+  width: 33%;
+  max-width: 100%;
+  padding: 0 15px;
+  margin-top: 30px;
+}
+
+.card {
+  display: block;
+  color: var(--main-dark);
+  text-decoration: none;
+  padding: 24px;
+  background-color: var(--light);
+  height: 100%;
+}
+
+.card-num {
+  font-family: 'Neucha', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
