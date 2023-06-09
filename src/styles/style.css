@@ -370,4 +370,5 @@ h6 {
 
 .article p {
   break-inside: avoid;
+  margin-bottom: 25px;
 }
