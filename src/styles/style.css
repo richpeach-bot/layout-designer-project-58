@@ -102,6 +102,7 @@ h6 {
 
 .hero-wrapper {
   position: relative;
+  margin-bottom: 15px;
 }
 
 .hero-title {
@@ -377,4 +378,9 @@ h6 {
 .article p {
   break-inside: avoid;
   margin-bottom: 25px;
+}
+
+.article span {
+  display: block;
+  margin-bottom: 15px;
 }
