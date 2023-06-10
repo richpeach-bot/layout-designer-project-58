@@ -282,7 +282,7 @@ h6 {
 .types-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin: -30px -15px 0;
+  margin: -20px -15px 0;
 }
 
 .types-col {
@@ -290,7 +290,7 @@ h6 {
   width: 33%;
   max-width: 100%;
   padding: 0 15px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .card {
@@ -377,7 +377,8 @@ h6 {
 
 .article p {
   break-inside: avoid-column;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
+  break-after: column;
 }
 
 .article span {
