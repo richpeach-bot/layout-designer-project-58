@@ -102,7 +102,7 @@ h6 {
 
 .hero-wrapper {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .hero-title {
@@ -113,10 +113,10 @@ h6 {
 
 .hero-img {
   position: absolute;
-  top: -80px;
-  right: -270px;
+  top: -49px;
+  right: -166px;
   z-index: 5;
-  width: 1083px;
+  width: 979px;
   height: 525px;
   background: url('../images/main.png') center center no-repeat;
 }
