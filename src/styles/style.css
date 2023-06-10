@@ -18,7 +18,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--main-dark);
@@ -43,7 +43,7 @@ h6 {
 .h2,
 .h3,
 .h4 {
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   font-style: normal;
   font-weight: 400;
   line-height: 1.2em;
@@ -96,7 +96,7 @@ h6 {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: url('../images/background.png') center top no-repeat;
+  background: url("../images/background.png") center top no-repeat;
   opacity: 0.06;
 }
 
@@ -118,7 +118,7 @@ h6 {
   z-index: 5;
   width: 979px;
   height: 525px;
-  background: url('../images/main.png') center center no-repeat;
+  background: url("../images/main.png") center center no-repeat;
 }
 
 .hero-text-wrapper {
@@ -153,7 +153,7 @@ h6 {
 }
 
 .hero-btn:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .mailing {
@@ -165,6 +165,7 @@ h6 {
   align-items: center;
   margin-bottom: 76px;
 }
+
 .mailing-title {
   max-width: 393px;
 }
@@ -195,7 +196,7 @@ h6 {
   height: 50px;
   padding: 17px 15px;
   background-color: var(--white);
-  border: 1px solid #E3E3E3;
+  border: 1px solid #e3e3e3;
 }
 
 .form-input::placeholder {
@@ -221,7 +222,7 @@ h6 {
   transform: translate(-50%, -50%);
   width: 24px;
   height: 24px;
-  background-image: url('../images/send.svg');
+  background-image: url("../images/send.svg");
 }
 
 .form-agreement {
@@ -234,7 +235,7 @@ h6 {
 
 .copy {
   font-size: 14px;
-  color: #000000;
+  color: #000;
   text-align: center;
 }
 
@@ -304,7 +305,7 @@ h6 {
 }
 
 .card-num {
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -335,7 +336,7 @@ h6 {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: url('../images/background.png') center center no-repeat;
+  background: url("../images/background.png") center center no-repeat;
   opacity: 0.1;
 }
 
@@ -346,7 +347,7 @@ h6 {
 
 .heading img {
   padding: 0 15px;
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .heading-wrapper {
@@ -382,7 +383,6 @@ h6 {
 
 .article p {
   break-inside: avoid-column;
-  /* margin-bottom: 25px; */
   break-after: column;
 }
 
